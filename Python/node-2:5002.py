@@ -18,7 +18,7 @@ def mine_block():
     proof = blockchain.proof_of_work(previous_proof)
     previous_hash = blockchain.hash(previous_block)
     blockchain.add_transaction(sender = node_address,
-                                receiver = 'Satoshi',
+                                receiver = 'Satoshi Niko',
                                 amount = 1)
     #Create a new block in the Blockchain
     #The new block will contain the proof of work and the hash of the previous block
@@ -86,6 +86,6 @@ def replace_chain():
     return jsonify(response), 200
 
 #Running the app
-app.run(host = '0.0.0.0', port = 5000)
+app.run(host = '0.0.0.0', port = 5002)
 #tutorial full cdoe
 #https://www.dropbox.com/scl/fo/ngtbwbitip8l1sm1klh3c/ACzjAeHGXxyt3Q_HqI3n-e4?rlkey=1rwhdgzedv7hi7o3me4iormfv&e=1&st=0lkh27lc&dl=0

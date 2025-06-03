@@ -1,0 +1,14 @@
+{
+  "sender": {
+    "name": "Alice",
+    "account_number": "1234567890",
+    "bank": "Bank of Example"
+  },
+  "receiver": {
+    "name": "Bob",
+    "account_number": "0987654321",
+    "bank": "Example Bank"
+  },
+  "amount": 1000.0,
+  "currency": "USD"
+}
